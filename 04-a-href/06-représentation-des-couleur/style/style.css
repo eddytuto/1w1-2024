@@ -1,0 +1,192 @@
+html {
+    /* ne fonctionne pas sur edge */
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    margin :0;
+    padding : 20px;
+}
+
+section {
+    height: 100vh; 
+}
+
+#un {
+    background-color: aquamarine;
+   
+}
+#deux {
+    background-color: rgb(255, 234, 127);
+   
+}
+#trois {
+    background-color: rgb(135, 189, 230);
+  
+}
+#quatre {
+    background-color: rgb(236, 240, 9);
+   
+}
+#cinq {
+    background-color: hsla(184, 94%, 73%, 0.742);
+   
+}
+
+.navigation {
+   /* border : 2px solid #aaa;*/
+    text-align: right;
+   
+}
+.navigation a {
+    display : inline-block;
+    background-color: bisque;
+    border : 2px solid #6a6eb5;
+    padding : 10px;
+    font-size : 1.5rem;
+    text-decoration: none;
+}
+
+
+
+.navigation .accueil {
+    border: none;
+    padding : 5px;
+
+}
+
+
+.navigation a:link {
+    background-color: blue;
+    }
+
+    /*
+.navigation    a:visited {
+    background-color: purple;
+    }
+*/
+    .navigation a:hover {
+        background-color: rgb(205, 162, 110);
+    }
+
+.navigation   a:active {
+    background-color: green;
+    }
+
+
+.bloc {
+    display : block;
+   
+}
+
+.bloc div{
+    display : inline-block;
+    width : 200px;
+    height : 200px;
+}
+
+   
+#un .bloc div:nth-of-type(1) {
+    background-color: hsl(46, 33%, 43%);
+}
+#un .bloc div:nth-of-type(2) {
+    background-color: hsl(46, 40%, 43%);
+}
+#un .bloc div:nth-of-type(3) {
+    background-color: hsl(46, 55%, 43%);
+}
+#un .bloc div:nth-of-type(4) {
+    background-color: hsl(46, 60%, 43%);
+}
+#un .bloc div:nth-of-type(5) {
+    background-color: hsl(46, 33%, 43%);
+}
+#un .bloc div:nth-of-type(6) {
+    background-color: hsl(46, 33%, 43%);
+}
+   /* ///////////////////////////  */
+#deux .bloc div:nth-of-type(1) {
+    background-color: hsl(100, 33%, 43%);
+}
+#deux .bloc div:nth-of-type(2) {
+    background-color: hsl(100, 40%, 43%);
+}
+#deux .bloc div:nth-of-type(3) {
+    background-color: hsl(100, 55%, 43%);
+}
+#deux .bloc div:nth-of-type(4) {
+    background-color: hsl(100, 60%, 43%);
+}
+#deux .bloc div:nth-of-type(5) {
+    background-color: hsl(100, 33%, 43%);
+}
+#deux .bloc div:nth-of-type(6) {
+    background-color: hsl(100, 33%, 43%);
+}
+/* ---------------------------------------- */
+   /* ///////////////////////////  */
+#trois .bloc div:nth-of-type(1) {
+    background-color: hsl(180, 33%, 43%);
+}
+#trois .bloc div:nth-of-type(2) {
+    background-color: hsl(180, 40%, 43%);
+}
+#trois .bloc div:nth-of-type(3) {
+    background-color: hsl(180, 55%, 43%);
+}
+#trois .bloc div:nth-of-type(4) {
+    background-color: hsl(180, 60%, 43%);
+}
+#trois .bloc div:nth-of-type(5) {
+    background-color: hsl(180, 33%, 43%);
+}
+#trois .bloc div:nth-of-type(6) {
+    background-color: hsl(180, 33%, 43%);
+}
+/* ---------------------------------------- */
+   /* ///////////////////////////  */
+   #quatre .bloc div:nth-of-type(1) {
+    background-color: hsl(300, 33%, 43%);
+}
+#quatre .bloc div:nth-of-type(2) {
+    background-color: hsl(300, 40%, 43%);
+}
+#quatre .bloc div:nth-of-type(3) {
+    background-color: hsl(300, 55%, 43%);
+}
+#quatre .bloc div:nth-of-type(4) {
+    background-color: hsl(300, 60%, 43%);
+}
+#quatre .bloc div:nth-of-type(5) {
+    background-color: hsl(300, 33%, 43%);
+}
+#quatre .bloc div:nth-of-type(6) {
+    background-color: hsl(300, 33%, 43%);
+}
+
+/* ---------------------------------------- */
+   /* ///////////////////////////  */
+   #cinq .bloc div:nth-of-type(1) {
+    background-color: hsl(200, 33%, 43%);
+}
+#cinq .bloc div:nth-of-type(2) {
+    background-color: hsl(200, 40%, 43%);
+}
+#cinq .bloc div:nth-of-type(3) {
+    background-color: hsl(200, 55%, 43%);
+}
+#cinq .bloc div:nth-of-type(4) {
+    background-color: hsl(200, 60%, 43%);
+}
+#cinq .bloc div:nth-of-type(5) {
+    background-color: hsl(200, 75%, 43%);
+}
+#cinq .bloc div:nth-of-type(6) {
+    background-color: hsl(200, 90%, 43%);
+}
+  

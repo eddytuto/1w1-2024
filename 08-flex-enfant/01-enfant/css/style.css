@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+}
+
+body {
+   font-size: 16px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   min-height : 100vh;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+h3 {
+    font-size : 1.5rem;
+}
+
+.entete,
+.principal,
+.pied {
+    display: flex;
+    justify-content: center;
+}
+
+
+.global {
+    /*
+        flex-grow : 0;
+        flex-shrink : 1; 
+        flex-basis : 1100px;   définit la largeur de la zone  .global
+    */
+    display: flex;
+    flex : 0 1 1100px;
+    background-color: rgba(255,255,255,.5);
+}
+/* ///////////////////////////////////////////  .entete */
+
+.entete{
+    background-color : #ebe713;
+}
+
+.entete__global {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ///////////////////////////////////////////  .principal */
+.principal{
+    background-color : #157ce3;
+}
+
+.principal__global {
+    flex-direction: column;
+}
+.principal__section{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.principal__article {
+    flex : 1 0 340px;
+    border : 1px solid #aaa;
+}
+/* ///////////////////////////////////////////  .entete */
+.pied{
+    background-color : #144e67;
+}

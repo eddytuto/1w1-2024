@@ -1,0 +1,38 @@
+* {
+    margin :0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+a{
+    display : block;
+}
+
+a[href] {
+    background-color: aquamarine;
+    padding : 5px;
+}
+/* selectionne tous les liens dont l'attribut href commence par "https" */
+a[href^="https://"] {
+    background-color: rgb(255, 244, 127);
+    padding : 10px;
+}
+
+/* selectionne tous les liens dont l'attribut href commence par "https" */
+a[href^="#"] {
+    background-color: rgb(20, 85, 182);
+    padding : 15px;
+    font-size: 1.5rem;
+    color:antiquewhite
+}
+/* selectionne tous les liens dont l'attribut href cqui se termine par  ".htm" */
+a[href$=".htm"] {
+    background-color: rgb(74, 20, 182);
+    padding : 15px;
+    font-size: 1.5rem;
+    color:antiquewhite
+}

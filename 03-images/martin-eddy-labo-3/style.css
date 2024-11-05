@@ -1,0 +1,24 @@
+* {
+    margin : 0;
+    padding:0;
+}
+
+body{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.entete {
+    margin : 50px auto;
+}
+.entete h1{
+    font-size : 5rem;
+    text-shadow: 1px 1px 3px #1052b6;
+    color:#1052b6;
+    text-align: center;
+}
+.entete h2{
+        font-size : 2rem;
+        text-shadow: 1px 1px 3px #1052b6;
+        color:#1052b6;
+        text-align: center;
+}

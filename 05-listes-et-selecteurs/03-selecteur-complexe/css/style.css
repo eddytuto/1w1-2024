@@ -1,0 +1,42 @@
+* {
+    margin : 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+p {
+    display : inline-block;
+    width : 300px;
+    background-color: rgb(178, 186, 186);
+    
+}
+
+.premier {
+    background-color: aquamarine;
+}
+
+.deuxieme + p {
+    background-color: rgb(212, 219, 30);
+}
+
+.deuxieme + p ~ p  {
+    background-color: rgb(194, 69, 61);
+}
+
+.article-deux .quatrieme ~ p {
+    background-color: rgb(40, 104, 192);
+}
+ /*
+.article-deux .quatrieme + p + p + p + p {
+    background-color: rgb(255, 221, 2);
+}
+*/
+.article-deux p:last-child {
+    background-color : green;
+}
+
+
+
+

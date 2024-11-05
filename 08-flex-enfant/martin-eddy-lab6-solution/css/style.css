@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 25px;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(12, 68, 121);
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px #0f69a6;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 0;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 0 0 20px 0;
+}
+
+a {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+a:hover,
+a:focus {
+  color: #888;
+}
+
+a:visited {
+  color: #666;
+}
+/* les trois zones de bases */
+.entete,
+.principal,
+.pied {
+  display: flex;
+  justify-content: center;
+}
+
+/* la zone centrale à chacune des ones de base */
+.global {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 1100px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+/* ////////////////////////////////////////////// la zone .entete */
+.entete {
+  background-color: rgb(42, 112, 165);
+  box-shadow: 0 10px 10px #02000f;
+}
+/* ////////////////////////////////////////////// la zone .principal */
+.principal {
+  background-color: rgb(19, 91, 226);
+}
+/* ////////////////////////////////////////////// la zone .pied */
+.pied {
+  background-color: rgb(12, 68, 121);
+  color: #fff;
+}
+
+.entete__global {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.entete__global div {
+}
+
+.entete__conteneur {
+  flex: 0 0 333px;
+}
+/* /////////////////////////   navigation */
+.entete__conteneur nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 20px 0 0 0;
+}
+
+.entete__conteneur nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px 5px 0;
+  font-size: 1.1rem;
+}
+
+.entete__conteneur nav a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ////////////////////////////// .principal */
+.principal__global {
+  flex-direction: column;
+}
+
+.principal__section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.principal__article {
+  /* border: 1px solid #aaa; */
+  flex: 1 0 333px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.principal__article h3 {
+  font-size: 1.5rem;
+}
+
+.principal__article p {
+  font-size: 1rem;
+}
+
+.principal__article code {
+  font-size: 1rem;
+  font-style: italic;
+}
+.principal__article code {
+}
+
+/* /////////////////////////////////////////////  */
+
+.pied__global {
+  color: #fff;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.pied__section {
+}
+
+.pied__section ul {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.pied__section ul li {
+  margin: 0;
+  padding: 0;
+}

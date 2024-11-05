@@ -1,0 +1,46 @@
+* {
+    margin : 0;
+}
+
+body {
+  font-size: 16px;
+}
+/* 
+image svg
+https://svgbox.net/#:~:text=SVGBox%20allows%20you%20to%20add%20any%20of%20the%204,623%20icons
+*/
+
+ul{
+    font-size: 2rem;
+    /* https://www.utf8icons.com/#:~:text=UTF-8%20Icons%20aims%20to%20offer%20it's%20visitors%20an%20easy%20to */
+    /* https://utf8-icons.com/#:~:text=UTF-8%20Icons%20is%20the%20most%20popular%20source%20to%20find%20UTF-8 */
+    /* list-style-type: "\1F328"; */
+    
+    
+    /* pour intégrer une image dans un marqueur de liste on utilise 
+    la propriété « list-style-image »
+    pour définir le chemin relatif de l'image si cette image se trouve dans le dossier « images »,
+    on doit précéder le répertoire « images » par « .. ». Le deux points permet de remonter d'un niveau.
+    Dans ce cas si c'est de remonter à la racine. */
+    list-style-image: url(../images/sqpurple.gif);
+    border : 1px solid  #00f; 
+    display : inline-block;
+    padding : 3rem;
+
+}
+li{
+     border : 1px solid  #0f0; 
+    padding : 0 4px;
+    margin : 0 5px;
+   /* outline : 2px solid #aaa; */
+   /* outline-offset: 3rem; */
+}
+
+ol{
+    list-style-type: upper-roman; 
+   
+    font-size: 2rem;
+    display : inline-block;
+    padding : 4rem;
+    border : 1px solid  #00f; 
+}

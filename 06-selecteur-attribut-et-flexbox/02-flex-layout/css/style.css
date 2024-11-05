@@ -1,0 +1,31 @@
+* {
+    margin :0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* conteneur flexbox */
+section {
+    display: flex;
+    /* justify-content: flex-end; */
+     flex-direction: row; /* permet de changer la direction de l'axe principal */
+     justify-content : center; /* positionnement sur l'axe principal */
+     align-items : center; /* positionnement sur l'axe adjacent */
+    /*align-items: flex-end;*/ 
+
+    border: 1px solid #aaa;
+    min-height : 50vh;
+    background-color: #468f8f;
+    gap: 10px; /* permet de définir l'espace entre les éléments du conteneur */
+}
+/* éléments du conteneur */
+div{
+    border: 3px solid red;
+    font-size: 3rem;
+    padding : 5px;
+}
+

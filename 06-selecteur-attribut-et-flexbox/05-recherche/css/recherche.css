@@ -1,0 +1,31 @@
+
+.recherche{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  width : 225px;
+  padding : 3px;
+  background-color: rgba(255,255,255,.01);
+}
+
+.recherche__input {
+    display: inline-block;
+    background-color: transparent;
+    border : none;
+    outline: none; 
+    color : #fff;
+}
+.recherche__input::placeholder{
+    color : #f40909;
+}
+
+.recherche__input:hover,
+.recherche__input:focus
+{
+    background-color: rgba(255,255,255,.2);
+    border : none;
+    outline: none;
+}
+
+

@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+
+}
+tr{}
+td{
+    border: 1px solid #aaa;
+    padding: 7px;
+}
+/* 
+even : pair
+odd : impair
+*/
+tr:nth-of-type(odd) {
+    background-color: #ddd;
+}
+
+tr:nth-of-type(1) {
+    background-color: #91e7a2;
+}
+
+/*
+tr:nth-last-of-type(1) {
+    background-color: #45679f;
+}
+*/
+
+tr:last-of-type {
+    background-color: #d49133;
+}

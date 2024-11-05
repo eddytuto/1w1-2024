@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intoduction à CSS</title>
+    <style>
+/*  « * » est le sélecteur universelle qui permet 
+de sélectionner tout les éléments HTML de la page */
+        * {
+        margin:0;
+        padding:0;
+        }
+        body {
+            background-color: aqua;
+            text-align: center;
+        }
+        .centre {
+            /* inline-block permet à la largeur du bloc de s'ajuster au contenu */
+            display: inline-block;
+            background-color: #6d1bb8;
+            color: #80b61c;
+            font-size: 11rem;
+            margin: 100px;
+            padding: 50px;
+            border: 30px solid rgb(221, 215, 22);
+            /* « outline » est une bordure collé à l'extérieur de la  « border » */
+            outline: 20px dotted red;
+            /* offset permet de créer une marge entre la bordur et le outline  */
+            outline-offset: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="centre">1W1</div>
+    <div class="centre">1W1</div>
+</body>
+</html>

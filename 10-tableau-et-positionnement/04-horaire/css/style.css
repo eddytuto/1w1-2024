@@ -1,0 +1,51 @@
+table{
+    border-collapse: collapse;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+tr{}
+
+td,th{
+    border: 1px solid #aaa;
+    padding: 7px;
+}
+/* 
+even : pair
+odd : impair
+*/
+tr:nth-of-type(even) {
+    background-color: #ddd;
+}
+th {
+    color: #12e624;
+    font-weight: bold;
+}
+
+caption {
+    font-size: 2rem;
+    color: rgb(8, 40, 63);
+    font-weight : bold;
+    border : 1px solid #aaa;
+    padding : 10px;
+}
+
+
+thead {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+thead th {
+    transform : rotate(90deg);
+
+    padding : 20px 5px;
+}
+
+tbody{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+tfoot{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: aquamarine;
+}

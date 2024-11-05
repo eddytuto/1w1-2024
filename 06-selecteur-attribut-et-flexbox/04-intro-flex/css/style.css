@@ -1,0 +1,57 @@
+* {
+    margin :0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border : 3px green;
+}
+
+.entete__navigation {
+    display : flex;
+    border : 1px solid #aaa;
+    gap: 10px;
+}
+
+.entete__navigation  a {
+    text-decoration: none;
+    font-size : 1.3rem;
+    text-wrap: nowrap;
+}
+
+/* conteneur flexbox */
+.principal {
+    display: flex;
+    /* justify-content: flex-end; */
+     flex-direction: row-reverse; /* permet de changer la direction de l'axe principal */
+     /*justify-content : center; */  /* positionnement sur l'axe principal */
+     /*justify-content: space-between; */
+     /* justify-content: space-around; */
+     justify-content: flex-start;
+     align-items : flex-start; /* positionnement sur l'axe adjacent */
+    /*align-items: flex-end;*/ 
+
+    border: 1px solid #aaa;
+    min-height : 50vh;
+    background-color: #468f8f;
+    gap: 10px; /* permet de définir l'espace entre les éléments du conteneur */
+    flex-wrap: wrap;
+}
+/* éléments du conteneur */
+div{
+    border: 3px solid red;
+    font-size: 3rem;
+    padding : 5px;
+}
+

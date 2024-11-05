@@ -1,0 +1,69 @@
+* {
+    margin :0;
+    box-sizing: border-box;
+}
+/* //////////////////////////////////// Sélecteur des éléments de base */
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+
+}
+
+h1{}
+h2{}
+p{}
+a{}
+
+
+/* les seule propriété flex qu'on utilise pour les lab4 et 5 sont
+
+display:flex;
+justify-content:
+align-items:
+flex-direction:
+*/
+
+
+
+
+
+/* ///////////////////////////////// sélecteur général
+
+/*
+.entete > section,
+.principal > section,
+.pied-de-page > section 
+*/
+.global
+{
+    width : 1100px;
+    /* différents filtres créé à partir de rgba() */
+      background-color: rgba(255,255,255, .5); 
+    /* background-color: rgba(0,0,0, .1); */
+   /* background-color: rgba(0,255,0, .3); */
+    margin: 0 auto; /* permet de centrer le contenu du conteneur .global */
+}
+
+
+/* //////////////////////////////////  Zone .entete  */
+
+.entete{
+    background-color: rgb(13, 236, 13);
+}
+
+/* //////////////////////////////////  Zone .principal  */
+
+
+.principal{
+    background-color: rgb(246, 234, 6);
+}
+
+
+
+/* //////////////////////////////////  Zone .pied de page  */
+
+.pied-de-page{
+    background-color: rgb(6, 174, 246);
+}
+

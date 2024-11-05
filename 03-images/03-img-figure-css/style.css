@@ -1,0 +1,64 @@
+/* référence utile:
+
+https://developer.mozilla.org/fr/docs/Web/CSS/margin
+
+*/
+
+
+* {
+    margin : 0;
+    padding:0;
+}
+body{
+    font-size: 16px;
+}
+/* le conteneur de la galerie est ciblé par le sélecteur .galerie */
+.galerie {
+    /*
+        margin : 20px; contour de 20px autour du bloc
+        margin : top right bottom left;
+        margin-top: 100px;
+        margin-right : 10px;
+        margin-bottom : 100px;
+        margin-left : 10px;
+        margin : 100px 10px 100px 10px;
+
+        margin : 100px 10px;
+    */
+margin: 100px 10px;
+border : 3px solid #aaa;
+padding : 10px;
+}
+
+/* Ce selecteur permet de cibler 
+la balise img se trouvant à l'intérieur de la .galerie__figure.
+La règle de style aura un impact uniquement sur la balise img.
+*/
+.galerie__figure img {
+    /* pour adapter la dimension de l'image on peut ajuster 
+    la propriété « width » ou « height ». 
+    En ajustant une de ces proptiétés
+    l'autre (width ou height) 
+    s'adaptera pour maintenir les proportions de l'image */
+    /* width : 200px; */
+    height : 208px;
+    border-radius: 7px;
+    
+
+}
+
+.galerie__figure {
+    display: inline-block;
+    /*border : 3px solid #aaa;*/
+    border-radius : 10px;
+    margin : 5px;
+    box-shadow: 2px 2px 4px #777;
+}
+.galerie__figure figcaption {
+    text-align: center;
+    padding : 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    color :#aaa;
+    font-weight: bold;
+}

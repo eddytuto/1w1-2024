@@ -1,0 +1,51 @@
+* {
+   margin : 0;
+   padding :0; 
+}
+
+body {
+    /* font-family est une propriété qui est hérité dans tous les enfants de body */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin : 20px; /* margin n'est pas hérité. C'est uniquement body qui subira l'effet d'une marge de 20px */
+    color : red; /* propriété qui est hérité dans les balises enfants de body */
+    font-size: 16px;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.principal {
+    color : #00f;
+}
+
+main {
+    color : #000;
+}
+.premier {
+    background-color: rgb(210, 234, 226);
+}
+article {
+    background-color: aquamarine;
+    margin : 10px;
+}
+
+main {
+    color : #0f0;
+}
+
+.deuxieme-lien {
+    color: rgb(148 38 38);
+    border : 5px solid #5ee10d;
+    display : inline;
+}
+
+a {
+    display :  inline-block;
+    border : 2px solid #aaa;
+    padding : 10px;
+    margin : 5px;
+    font-size: 2rem;
+    color :#d82121;
+    font-weight: bold;
+}
+

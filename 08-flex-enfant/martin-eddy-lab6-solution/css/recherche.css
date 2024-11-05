@@ -1,0 +1,36 @@
+.recherche {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 6px 4px;
+}
+
+.recherche__input {
+  background-color: rgba(0, 0, 0, 0.01);
+  color: #fff;
+  border: none;
+  height: 1.5rem;
+  font-size: 1.3rem;
+}
+.recherche__input::placeholder {
+  display: block;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+.recherche__input:focus {
+  border: none;
+  outline: none;
+  /* background-color: rgba(0,0,0,0); */
+  background-color: rgba(255, 255, 255, 0.05);
+}
+/*
+.recherche__input:hover {
+    background-color: rgba(255,255,255,.05);
+}
+*/
