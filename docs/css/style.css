@@ -50,3 +50,9 @@ odd : impair
 font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: aquamarine;
 }
+
+.tableau .titre-vertical{
+
+    font-size: .5rem;
+    transform: rotate(90deg) scale(6);
+}
