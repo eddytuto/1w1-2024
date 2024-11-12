@@ -1,0 +1,47 @@
+*{
+    margin : 0;
+}
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.conteneur{
+    /* permet de créer une nouvelle référence pour le bloc absolute  */
+  position : relative; 
+  border : 3px solid #0f0;
+  width: 500px;
+  height: 500px;
+}
+
+div{
+    position:absolute;
+    border : 3px solid #aaa;
+    font-size: 4rem;
+    width : 6rem;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+
+.ne{
+    top:0;
+    left:0;
+}
+.no{
+    top:0;
+    right:0;
+}
+.se{
+    bottom:0;
+    left:0;
+}
+.so{
+    bottom:0;
+    right:0;
+}
