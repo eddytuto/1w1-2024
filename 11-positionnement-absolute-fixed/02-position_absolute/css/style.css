@@ -1,0 +1,24 @@
+*{
+    margin : 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+div{
+    border : 3px solid #aaa;
+    margin: 20px;
+    font-size: 4rem;
+    width : 6rem;
+    text-align: center;
+    background-color: aqua;
+}
+
+.position_absolute{
+    position: absolute;
+    top : 0;
+    left : 50px;
+    background-color: rgb(228, 135, 14);
+    z-index: -1;
+}
