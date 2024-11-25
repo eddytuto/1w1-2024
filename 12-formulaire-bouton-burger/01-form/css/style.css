@@ -1,0 +1,14 @@
+/* //////////////////////////////////////////// formulaire  */
+
+.formulaire {
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.formulaire fieldset{
+    margin : 10px;
+}
+.formulaire > div {}
+.formulaire label {}
+.formulaire input {}
+
+
+/* ///////////////////////////////////////// fin formulaire */

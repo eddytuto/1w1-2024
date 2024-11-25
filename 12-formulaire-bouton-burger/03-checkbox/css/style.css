@@ -1,0 +1,21 @@
+/* //////////////////////////////////////////// formulaire  */
+#burger {
+    border : 1px solid #aaa;
+}
+
+#chk-burger{
+    width : 200px;
+    border : 2px solid #f00;
+    padding: 10px;
+}
+
+/* Sélectionne l'élément #burger qui est précédé par la case à côcher (#chk-burger côcher) */
+
+#chk-burger:checked + #menu {
+    border : 2px solid #00f;
+    background-color: aquamarine;
+}
+
+
+
+/* ///////////////////////////////////////// fin formulaire */

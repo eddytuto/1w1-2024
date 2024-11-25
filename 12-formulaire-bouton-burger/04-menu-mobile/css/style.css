@@ -1,0 +1,43 @@
+/* //////////////////////////////////////////// formulaire  */
+#burger {
+    position : fixed;
+    top: 20px;
+    right: 20px;
+    border : 1px solid #aaa;
+    border-radius: 5px;
+}
+/* définition du format du menu. Par défaut le menu est invisible */
+#menu{
+    display : none;
+    position : fixed;
+    top: 100px;
+    right: 20px;
+    border : 1px solid #00f;
+    background-color: #07235f;
+    color: #fff;
+}
+
+#menu a {
+    color : #fff;
+    display : block;
+}
+
+
+#chk-burger{
+    display : none;
+    width : 200px;
+    border : 2px solid #f00;
+    padding: 10px;
+}
+
+/* Sélectionne l'élément #burger qui est précédé par la case à côcher (#chk-burger côcher) */
+/* opérateur + un des suivant
+   opérateur ~ le suivant
+*/
+#chk-burger:checked + #menu {
+    display:block; /* menu devient visible */
+}
+
+
+
+/* ///////////////////////////////////////// fin formulaire */
