@@ -8,14 +8,27 @@
 }
 /* définition du format du menu. Par défaut le menu est invisible */
 #menu{
-    display : none; /* le menu est invisible */
+    /*display : none;  le menu est invisible */
     position : fixed; /* À un positionnement fixe par rapport à la fenêtre */
     top: 100px;
     right: 20px;
     border : 1px solid #00f;
     background-color: #07235f;
     color: #fff;
-}
+    transition: transform .25s;
+    transform : translateX(225px);/* le menu est sorti de la fenetre donc il est invisible */
+    width : 200px;
+    height: 400px;
+    padding : 10px;
+}  
+/* Sélectionne l'élément #burger qui est précédé par la case à côcher (#chk-burger côcher) checked */
+/* opérateur + un des suivant
+   opérateur ~ le suivant
+*/
+#chk-burger:checked + #menu {
+    /*display:block;  menu devient visible */
+    transform : translateX(0);/* le menu reprend sa position naturel donc devient visible */
+} 
 
 #menu a {
     color : #fff;
@@ -30,13 +43,7 @@
     padding: 10px;
 }
 
-/* Sélectionne l'élément #burger qui est précédé par la case à côcher (#chk-burger côcher) checked */
-/* opérateur + un des suivant
-   opérateur ~ le suivant
-*/
-#chk-burger:checked + #menu {
-    display:block; /* menu devient visible */
-}
+
 
 
 
