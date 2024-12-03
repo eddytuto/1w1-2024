@@ -1,0 +1,31 @@
+
+/*
+Pour expérimenter les filtre ccs
+https://css-tricks.com/almanac/properties/f/filter/
+
+définir le timing function
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
+
+définir noud même notre fonction de déplacement
+https://cubic-bezier.com/
+
+*/
+
+.article__figure {
+  /* position: absolute;
+  top:50%;
+  height:50%;
+  */
+  transform : scale(.95) translateX(-2%);
+  transition : transform .25s, filter .25s;
+  filter:grayscale(1) blur(1px);
+
+
+}
+.article__figure:hover {
+  transform : scale(1) translateX(0);
+  filter:grayscale(0) blur(0);
+
+}
+
+

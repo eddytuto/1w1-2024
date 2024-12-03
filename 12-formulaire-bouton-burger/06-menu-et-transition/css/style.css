@@ -5,12 +5,17 @@
     right: 20px;
     border : 1px solid #aaa;
     border-radius: 5px;
+    z-index:9;
 }
 /* définition du format du menu. Par défaut le menu est invisible */
 #menu{
-    /*display : none;  le menu est invisible */
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 10px;
     position : fixed; /* À un positionnement fixe par rapport à la fenêtre */
-    top: 100px;
+    top: 20px;
     right: 20px;
     border : 1px solid #00f;
     background-color: #07235f;
@@ -20,6 +25,8 @@
     width : 200px;
     height: 400px;
     padding : 10px;
+    padding-left: 40px;
+    
 }  
 /* Sélectionne l'élément #burger qui est précédé par la case à côcher (#chk-burger côcher) checked */
 /* opérateur + un des suivant
@@ -33,6 +40,9 @@
 #menu a {
     color : #fff;
     display : block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
