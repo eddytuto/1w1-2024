@@ -9,29 +9,45 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
 définir noud même notre fonction de déplacement
 https://cubic-bezier.com/
 
+
+nth-of-type
+https://css-tricks.com/almanac/pseudo-selectors/n/nth-of-type/
+
 */
-
-.article__figure {
-  /* position: absolute;
-  top:50%;
-  height:50%;
-  */
-  transform : scale(.95) translateX(-2%);
-  transition : transform .25s, filter .25s;
-  filter:grayscale(1) blur(1px);
-
-
+.global {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding : 0 20px;
 }
-.article__figure:hover {
-  transform : scale(1) translateX(0);
-  filter:grayscale(0) blur(0);
-
-}
-
 .article {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+
+.article__figure {
+
+  transform : scale(.95) translateX(-2%);
+  transition : transform .25s, filter .25s;
+  filter: blur(1px)   hue-rotate(214deg);
+  flex : 1 0 200px;
+}
+
+.article__figure img {
+  width : 100%;
+}
+
+.article__p{
+  flex: 1 0 400px;
+}
+.article__figure:hover {
+  transform : scale(1) translateX(0);
+  filter: blur(0) hue-rotate(0);
+
+}
+
+
 
 .article:nth-of-type(even)  .article__figure{
   order: 3;
